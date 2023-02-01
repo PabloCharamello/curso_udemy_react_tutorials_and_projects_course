@@ -1,10 +1,19 @@
-import { dataArticle1, dataArticle2, dataArticle3 } from "./articles.js";
-import { Article } from "./components/Article";
+//import { dataArticle1, dataArticle2, dataArticle3 } from "./articles.js";
+//import { Article } from "./components/Article";
+//import { GetInfoFromApi } from "./components/GetInfoFromApi.jsx";
+//import { GetRandomIdComponent } from "./components/functionalities/GetRandomIdComponent.jsx";
+//import { ToogleFunction } from "./components/functionalities/ToogleFunction.jsx";
+import { ArticlesListWhitMap } from "./components/ArticlesListWhitMap.jsx";
 
 export const App = () => {
   return (
     <>
-      <Article
+      {/* <GetRandomIdComponent /> */}
+      {/* <ToogleFunction /> */}
+      {/* <GetInfoFromApi /> */}
+      <ArticlesListWhitMap />
+
+      {/* <Article
         image={dataArticle1.image}
         title={dataArticle1.title}
         author={dataArticle1.author}
@@ -13,7 +22,7 @@ export const App = () => {
           <p>
             Por ello, en este artículo conoceremos una selección de treinta y
             siete cortos de poetas reconocidos, que pueden dar inspiración a
-            cualquier
+            cualquier...
           </p>
           <button>Click me</button>
         </div>
@@ -27,7 +36,7 @@ export const App = () => {
         image={dataArticle3.image}
         title={dataArticle3.title}
         author={dataArticle3.author}
-      />
+      /> */}
     </>
   );
 };
