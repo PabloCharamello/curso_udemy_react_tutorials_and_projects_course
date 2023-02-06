@@ -5,6 +5,7 @@ import { Article } from "./components/Article";
 //import { GetRandomIdComponent } from "./components/functionalities/GetRandomIdComponent.jsx";
 //import { ToogleFunction } from "./components/functionalities/ToogleFunction.jsx";
 import { ArticlesListWhitMap } from "./components/ArticlesListWhitMap.jsx";
+import Button from "./components/Button.jsx";
 //import { HandleClickAndOnchange } from "./components/events/HandleClickAndOnchange";
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
       {/* <ToogleFunction /> */}
       {/* <GetInfoFromApi /> */}
       {/* <HandleClickAndOnchange /> */}
+      <Button text={"boton"} />
       <ArticlesListWhitMap>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam,

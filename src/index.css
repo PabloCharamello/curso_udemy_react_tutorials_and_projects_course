@@ -26,3 +26,15 @@
   margin: 10px 0;
   text-align: center;
 }
+
+.button {
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.center-aligned {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
