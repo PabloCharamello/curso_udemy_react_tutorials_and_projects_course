@@ -8,7 +8,7 @@ export const ToogleFunction = () => {
   };
   return (
     <div>
-      <h2>El auto esta: {stateCar ? "Encendido" : "Apagado"}</h2>
+      <h2>El motor esta: {stateCar ? "Encendido" : "Apagado"}</h2>
       <button onClick={encenderApagar}>Encender/Apagar</button>
     </div>
   );

@@ -9,9 +9,6 @@ export const ArticlesListWhitMap = ({ children }) => {
           <Article key={article.id} {...article}>
             {children}
           </Article>
-          //   <div key={article.id} className="titles">
-          //     <h2>{article.title}</h2>
-          //   </div>
         );
       })}
     </div>
